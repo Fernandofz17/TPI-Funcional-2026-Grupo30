@@ -63,7 +63,7 @@
      (list color-actual 'accion-por-defecto))))
 
      ;; ========================================================
-;; FUNCIÓN: timer
+;; FUNCIÓN: timer-semaforo (se cambio el nombre de la funcion principal porque generaba conflicto, más info en bitacora de depuracion)
 ;; NATURALEZA: Pura
 ;; ESTRATEGIA: Cálculo matemático
 ;; IMPACTO: No destructiva
