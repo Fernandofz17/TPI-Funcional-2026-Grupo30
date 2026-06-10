@@ -187,3 +187,13 @@
   (cdr (assoc color
               (leer-configuracion)
               :test #'eq)))
+
+;; ========================================================
+;; FUNCIÓN: ciclos-por-tiempo
+;; NATURALEZA: Pura
+;; ESTRATEGIA: Cálculo aritmético
+;; IMPACTO: No destructiva
+;; ========================================================
+(defun ciclos-por-tiempo (minutos)
+  (floor (/ (* minutos 60)
+            (duracion-ciclo))))
