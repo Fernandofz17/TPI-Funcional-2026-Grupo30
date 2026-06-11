@@ -178,7 +178,7 @@
 
 ;; ========================================================
 ;; FUNCIÓN: obtener-tiempo
-;; NATURALEZA: Pura
+;; NATURALEZA: Impura
 ;; ESTRATEGIA: Búsqueda en lista asociativa
 ;; IMPACTO: No destructiva
 ;; ========================================================
